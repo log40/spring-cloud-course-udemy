@@ -1,5 +1,6 @@
 package com.lblandi.itemms.features.item;
 
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -13,7 +14,10 @@ import java.util.List;
 public class ItemController {
     private final ItemService itemService;
 
-    public ItemController(ItemService itemService) {
+
+    public ItemController(
+            @Qualifier("webClientItemServiceImpl") ItemService itemService
+    ) {
         this.itemService = itemService;
     }
 

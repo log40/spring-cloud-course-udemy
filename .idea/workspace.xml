@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="006cffb6-9feb-453b-8baa-b6eb58d9047f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/item-ms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/item-ms/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-ms/src/main/java/com/lblandi/itemms/features/product/ProductDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-ms/src/main/java/com/lblandi/itemms/features/product/ProductDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-ms/src/main/java/com/lblandi/itemms/features/product/ProductHttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-ms/src/main/java/com/lblandi/itemms/features/product/ProductHttpClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-ms/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/item-ms/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-ms/src/main/java/com/lblandi/productms/features/product/ProductEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-ms/src/main/java/com/lblandi/productms/features/product/ProductEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-ms/src/main/java/com/lblandi/productms/features/product/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-ms/src/main/java/com/lblandi/productms/features/product/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-ms/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product-ms/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item-ms/src/main/java/com/lblandi/itemms/config/WebClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item-ms/src/main/java/com/lblandi/itemms/features/item/WebClientItemServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-ms/src/main/java/com/lblandi/itemms/features/item/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-ms/src/main/java/com/lblandi/itemms/features/item/ItemController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,10 +19,10 @@
       <list>
         <option value="Spring Repository" />
         <option value="Record" />
-        <option value="Class" />
         <option value="Spring Service" />
         <option value="Interface" />
         <option value="Dockerfile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -83,7 +79,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "io.github.pandier.intellijdiscordrp.settings.DiscordSettingsConfigurable",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -100,6 +96,7 @@
             <map>
               <entry key="ItemMsApplication" value="STOPPED" />
               <entry key="ProductMsApplication - 1st instance" value="STOPPED" />
+              <entry key="ProductMsApplication - 2nd instance" value="STOPPED" />
             </map>
           </value>
         </entry>
@@ -168,7 +165,7 @@
       <workItem from="1766410799735" duration="4453000" />
       <workItem from="1766415312074" duration="224000" />
       <workItem from="1766415557226" duration="138000" />
-      <workItem from="1766415711190" duration="10998000" />
+      <workItem from="1766415711190" duration="12906000" />
     </task>
     <servers />
   </component>

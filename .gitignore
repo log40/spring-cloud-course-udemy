@@ -2,6 +2,7 @@
 # IDE related
 #############
 .idea
+.idea/workspace.xml
 
 ###############
 # Build related

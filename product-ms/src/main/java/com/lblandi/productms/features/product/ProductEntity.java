@@ -19,6 +19,9 @@ public class ProductEntity {
 
     private Double price;
 
+    @Transient
+    private int port;
+
     @CreationTimestamp
     @Column(name = "created_at")
     private LocalDateTime createdAt;

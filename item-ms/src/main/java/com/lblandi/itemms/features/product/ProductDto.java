@@ -6,6 +6,7 @@ public record ProductDto(
         Long id,
         String name,
         Double price,
+        int port,
         LocalDateTime createdAt
 ) {
 }

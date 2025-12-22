@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="006cffb6-9feb-453b-8baa-b6eb58d9047f" name="Changes" comment="" />
+    <list default="true" id="006cffb6-9feb-453b-8baa-b6eb58d9047f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/item-ms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/item-ms/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-ms/src/main/java/com/lblandi/itemms/features/product/ProductDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-ms/src/main/java/com/lblandi/itemms/features/product/ProductDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-ms/src/main/java/com/lblandi/itemms/features/product/ProductHttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-ms/src/main/java/com/lblandi/itemms/features/product/ProductHttpClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-ms/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/item-ms/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-ms/src/main/java/com/lblandi/productms/features/product/ProductEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-ms/src/main/java/com/lblandi/productms/features/product/ProductEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-ms/src/main/java/com/lblandi/productms/features/product/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-ms/src/main/java/com/lblandi/productms/features/product/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-ms/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product-ms/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,9 +26,25 @@
         <option value="Class" />
         <option value="Spring Service" />
         <option value="Interface" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "leandroblandi"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/leandroblandi/spring-cloud-course-udemy.git",
+    "accountId": "001ffac1-421f-4777-8adb-36a6c08d9708"
+  }
+}]]></component>
   <component name="JvmLoggingSettingsStorage">
     <option name="loggerId" value="Slf4j" />
   </component>
@@ -45,8 +69,12 @@
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "Spring Boot.ItemMsApplication.executor": "Run",
+    "Spring Boot.ProductMsApplication - 1st instance.executor": "Run",
+    "Spring Boot.ProductMsApplication - 2nd instance.executor": "Run",
     "Spring Boot.ProductMsApplication.executor": "Run",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/git/microservices-andres-guzman-udemy",
@@ -71,14 +99,15 @@
           <value>
             <map>
               <entry key="ItemMsApplication" value="STOPPED" />
+              <entry key="ProductMsApplication - 1st instance" value="STOPPED" />
             </map>
           </value>
         </entry>
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProductMsApplication">
-    <configuration name="ItemMsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.ProductMsApplication - 1st instance">
+    <configuration name="ItemMsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="Item MS" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="item-ms" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lblandi.itemms.ItemMsApplication" />
@@ -86,7 +115,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductMsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="ProductMsApplication - 1st instance" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="Product MS">
       <option name="envFilePaths">
         <option value="$PROJECT_DIR$/product-ms/.env" />
       </option>
@@ -100,9 +129,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProductMsApplication - 2nd instance" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="Product MS">
+      <option name="envFilePaths">
+        <option value="$PROJECT_DIR$/product-ms/.env" />
+      </option>
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="product-ms" />
+      <selectedOptions>
+        <option name="environmentVariables" />
+      </selectedOptions>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lblandi.productms.ProductMsApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=9001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.ItemMsApplication" />
-      <item itemvalue="Spring Boot.ProductMsApplication" />
+      <item itemvalue="Spring Boot.ProductMsApplication - 2nd instance" />
+      <item itemvalue="Spring Boot.ProductMsApplication - 1st instance" />
     </list>
   </component>
   <component name="SharedIndexes">
@@ -123,7 +168,7 @@
       <workItem from="1766410799735" duration="4453000" />
       <workItem from="1766415312074" duration="224000" />
       <workItem from="1766415557226" duration="138000" />
-      <workItem from="1766415711190" duration="5122000" />
+      <workItem from="1766415711190" duration="10998000" />
     </task>
     <servers />
   </component>

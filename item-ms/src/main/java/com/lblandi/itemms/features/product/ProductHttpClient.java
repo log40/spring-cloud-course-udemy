@@ -6,14 +6,11 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 
-@FeignClient(
-        name = "products-ms",
-        url = "${products-ms.url}"
-)
+@FeignClient(name = "products-ms")
 public interface ProductHttpClient {
-    @GetMapping("/products")
+    @GetMapping("/api/v1/products")
     List<ProductDto> findAll();
 
-    @GetMapping("/products/{id}")
+    @GetMapping("/api/v1/products/{id}")
     ProductDto findById(@PathVariable Long id);
 }

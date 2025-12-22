@@ -1,0 +1,15 @@
+#############
+# IDE related
+#############
+.idea
+
+###############
+# Build related
+###############
+item-ms/target
+product-ms/target
+
+###################
+# Environment files
+###################
+**/.env

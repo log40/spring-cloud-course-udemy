@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="006cffb6-9feb-453b-8baa-b6eb58d9047f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/item-ms/src/main/java/com/lblandi/itemms/handler/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-ms/src/main/java/com/lblandi/productms/features/product/ProductNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-ms/src/main/java/com/lblandi/productms/handler/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-ms/src/main/java/com/lblandi/productms/features/product/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-ms/src/main/java/com/lblandi/productms/features/product/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-ms/src/main/java/com/lblandi/itemms/config/WebClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-ms/src/main/java/com/lblandi/itemms/config/WebClientConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-ms/src/main/java/com/lblandi/itemms/features/item/WebClientItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-ms/src/main/java/com/lblandi/itemms/features/item/WebClientItemServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +169,7 @@
       <workItem from="1766410799735" duration="4453000" />
       <workItem from="1766415312074" duration="224000" />
       <workItem from="1766415557226" duration="138000" />
-      <workItem from="1766415711190" duration="13776000" />
+      <workItem from="1766415711190" duration="13955000" />
     </task>
     <servers />
   </component>

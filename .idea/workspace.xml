@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="006cffb6-9feb-453b-8baa-b6eb58d9047f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/item-ms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/item-ms/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-ms/src/main/java/com/lblandi/itemms/features/product/ProductHttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-ms/src/main/java/com/lblandi/itemms/features/product/ProductHttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-ms/src/main/java/com/lblandi/productms/features/port/PortUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/item-ms/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/item-ms/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-ms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-ms/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-ms/src/main/java/com/lblandi/productms/features/product/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-ms/src/main/java/com/lblandi/productms/features/product/ProductServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product-ms/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product-ms/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,6 +70,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "Spring Boot.EurekaServerApplication.executor": "Run",
+    "Spring Boot.GatewayServerApplication.executor": "Run",
     "Spring Boot.ItemMsApplication.executor": "Run",
     "Spring Boot.ProductMsApplication - 1st instance.executor": "Run",
     "Spring Boot.ProductMsApplication - 2nd instance.executor": "Run",
@@ -133,6 +134,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GatewayServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="gateway-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lblandi.gatewayserver.GatewayServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ItemMsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="Item MS" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="item-ms" />
@@ -165,7 +174,6 @@
         <option name="environmentVariables" />
       </selectedOptions>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lblandi.productms.ProductMsApplication" />
-      <option name="VM_PARAMETERS" value="-Dserver.port=9001" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -175,6 +183,7 @@
       <item itemvalue="Spring Boot.ItemMsApplication" />
       <item itemvalue="Spring Boot.ProductMsApplication - 2nd instance" />
       <item itemvalue="Spring Boot.ProductMsApplication - 1st instance" />
+      <item itemvalue="Spring Boot.GatewayServerApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
     </list>
     <recent_temporary>
@@ -201,7 +210,7 @@
       <workItem from="1766410799735" duration="4453000" />
       <workItem from="1766415312074" duration="224000" />
       <workItem from="1766415557226" duration="138000" />
-      <workItem from="1766415711190" duration="42958000" />
+      <workItem from="1766415711190" duration="49204000" />
     </task>
     <servers />
   </component>

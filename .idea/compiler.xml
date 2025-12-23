@@ -18,12 +18,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="item-ms" />
         <module name="eureka-server" />
+        <module name="gateway-server" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eureka-server" options="-parameters" />
+      <module name="gateway-server" options="-parameters" />
       <module name="item-ms" options="-parameters" />
       <module name="product-ms" options="-parameters" />
     </option>

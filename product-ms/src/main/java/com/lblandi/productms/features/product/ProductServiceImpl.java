@@ -1,5 +1,6 @@
 package com.lblandi.productms.features.product;
 
+import com.lblandi.productms.features.port.PortUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Service;
@@ -11,17 +12,17 @@ import java.util.Optional;
 @Service
 public class ProductServiceImpl implements ProductService {
     private final ProductRepository productRepository;
-    private final Environment env;
+    private final PortUtils portUtils;
 
-    public ProductServiceImpl(ProductRepository productRepository, Environment env) {
+    public ProductServiceImpl(ProductRepository productRepository, PortUtils portUtils) {
         this.productRepository = productRepository;
-        this.env = env;
+        this.portUtils = portUtils;
     }
 
     @Override
     @Transactional(readOnly = true)
     public List<ProductEntity> findAll() {
-        int port = env.getProperty("server.port", Integer.class);
+        int port = portUtils.getLocalServerPort();
         return ((List<ProductEntity>) productRepository.findAll())
                 .stream()
                 .peek(product -> product.setPort(port))
@@ -38,7 +39,7 @@ public class ProductServiceImpl implements ProductService {
         }
 
         ProductEntity product = productOptional.get();
-        product.setPort(env.getProperty("server.port", Integer.class));
+        product.setPort(portUtils.getLocalServerPort());
         return Optional.of(product);
     }
 }

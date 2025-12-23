@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 
-@FeignClient(name = "products-ms")
+@FeignClient(name = "product-ms")
 public interface ProductHttpClient {
     @GetMapping("/api/v1/products")
     List<ProductDto> findAll();
